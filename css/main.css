@@ -21,6 +21,7 @@ body{
             
     padding-top: 1.927vw;
 }.block1_content{
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -233,7 +234,7 @@ body{
     background-position: center;
     background-size: cover;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -768,9 +769,10 @@ h1 {
     }.block1_header_content_left{
         padding-bottom: 0;
     }.block1_header {
+        justify-content: flex-start;
         /*max-height: 100vh;
         min-height: 100vh;*/
-        /*overflow: hidden;*/
+        /*overflow: auto;*/
         padding-top: 0;
         /* padding-bottom: 1.927vw; */
     }.logo {
@@ -843,7 +845,9 @@ h1 {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-    }.block1_header_content_right_image_animation{
+    }
+
+    .block1_header_content_right_image_animation{
         position: relative;
         bottom: 0;
     }h1 {
@@ -901,6 +905,8 @@ h1 {
     }.block1_header_content_left_absolute_soc > div {
         height: 27.417vw;
     }.block1_header_content_left_content_advanced{
+        position: absolute;
+        bottom: 0;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
