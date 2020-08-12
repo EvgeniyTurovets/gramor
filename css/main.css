@@ -1080,7 +1080,8 @@ h1 {
         font-size: 3vw;
     }.block1_btn_type1_left {
         width: 72.042vw;
-        height: 20.208vw;
+        height: 18.208vw;
+        box-shadow: 0 1vw 0 rgb(126, 61, 35);
     }.block1_header_content_right_text_0{
         display: none;
     }.block1_header_content_right_image_animation {
@@ -1168,5 +1169,11 @@ h1 {
     }
     .block1_header_content_right_text_2{
         top: 27vw;
+    }
+}
+
+@media(max-width: 500px){
+    .block1_btn_type1_left{
+        box-shadow: 0 1vw 0 rgb(126, 61, 35);
     }
 }
