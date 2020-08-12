@@ -1146,4 +1146,27 @@ h1 {
         height: 43vw;
     }
 }
-@media(min-width: 560px)
+@media(min-width: 560px) and (max-width: 800px){
+    html, head, body{
+        overflow: auto;
+    }
+    .block1_header{
+        height: auto;
+    }
+    .block1_header_content_left_content_advanced{
+        position: relative;
+        flex-direction: row;
+        width: 84vw;
+        margin-top: 15vw;
+    }
+    .block1_header_content_right2{
+        height: 500px;
+        position: relative;
+    }
+    .block1_header_content_right_image_animation{
+        height: 65vw;
+    }
+    .block1_header_content_right_text_2{
+        top: 27vw;
+    }
+}
